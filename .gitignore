@@ -1,0 +1,63 @@
+# === Build folders ===
+build/
+build-*/
+
+# === Qt specific ===
+*.pro.user
+*.qbs.user
+*.pro.user.*
+*.autosave
+*.moc
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.app
+*.dSYM/
+
+# === CMake specific ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Ninja build
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# === Editor/IDE-specific ===
+
+# QtCreator
+*.user
+*.creator.*
+*.qmlproject.user
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# === OS-specific ===
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Logs and others ===
+*.log
+*.tmp
+*.swp
+*.swo
+tree.txt
