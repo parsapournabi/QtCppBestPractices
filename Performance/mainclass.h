@@ -11,12 +11,7 @@ class MainClass : public QObject
     Q_OBJECT
 public:
     explicit MainClass();
-
-    explicit MainClass(int id, QObject *parent = nullptr);
-
     ~MainClass();
-
-    void Func();
 
 signals:
 
