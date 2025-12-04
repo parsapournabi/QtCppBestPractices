@@ -16,6 +16,6 @@ target_link_libraries(SignalSlot PRIVATE
     Qt${QT_VERSION_MAJOR}::Quick
     Qt${QT_VERSION_MAJOR}::Qml
 )
-target_link_libraries(SignalSlot PRIVATE Qt6::Quick)
-target_link_libraries(SignalSlot PRIVATE Qt6::Core)
+target_link_libraries(SignalSlot PRIVATE Qt${QT_VERSION_MAJOR}::Quick)
+target_link_libraries(SignalSlot PRIVATE Qt${QT_VERSION_MAJOR}::Core)
 
